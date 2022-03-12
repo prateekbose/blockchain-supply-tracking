@@ -1,0 +1,17 @@
+{
+  "name": "blockchain-tracking",
+  "version": "0.9",
+  "description": "Blockchain based application for supply chain tracking",
+  "main": "app.js",
+  "author": "Prateek Bose",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
